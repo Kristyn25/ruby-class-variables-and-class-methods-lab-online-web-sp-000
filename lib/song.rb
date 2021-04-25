@@ -33,6 +33,6 @@ class Song
   def self.genre_count
     genre_count = {}
     @@genres.uniq.each do |genre|
-      {genre_count[genre] += 1}
+      genre_count[genre] += 1
   end
 end
